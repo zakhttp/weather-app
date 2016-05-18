@@ -4,7 +4,7 @@ I built this app as side project to help me get more grasp on [React Native](htt
 
 The app uses the [Geolocation](https://facebook.github.io/react-native/docs/geolocation.html#content) Polyfill to retrieve the location coordinates (latitude, longitude) and load the weather data from [Open Weather Map Api](https://http://openweathermap.org/api) using the same coordinates
 
-The color schemes can be added in [the themes file](https://github.com/zakhttp/weather-app/blob/master/src/components/colorThemes.js)
+The color schemes can be added in the [themes file](https://github.com/zakhttp/weather-app/blob/master/src/components/colorThemes.js)
 
 The actual theme is defined in the state variable 'theme'.
 
