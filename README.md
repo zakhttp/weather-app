@@ -11,4 +11,17 @@ The actual theme is defined in the state variable 'theme'.
 Please let me know your feedback, if any and feel free to modify it or use as base for your own projects.
 [zakhttp@gmail.com](mailto:zakhttp@gmail.com)
 
-#Screenshots
+## Screenshots
+
+### Default Theme
+![Default theme][default]
+
+### Tonic Theme
+![Tonic theme][tonic]
+
+### Warm Theme
+![Warm theme][warm]
+
+[default]: https://github.com/zakhttp/weather-app/blob/master/resources/screenshots/default.jpg "Default theme"
+[tonic]: https://github.com/zakhttp/weather-app/blob/master/resources/screenshots/tonic.jpg "Tonic theme"
+[warm]: https://github.com/zakhttp/weather-app/blob/master/resources/screenshots/warm.jpg "Warm theme"
