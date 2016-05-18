@@ -56,7 +56,7 @@ class weather extends Component {
             temperaturesForecast: [],
             temperaturesForecastLabels: [],
             loaded: false,
-            theme: 'warm'
+            theme: 'defaultTheme'
 
         };
     }
