@@ -8,6 +8,8 @@ The color schemes can be added in [the themes file](https://github.com/zakhttp/w
 
 The actual theme is defined in the state variable 'theme'.
 
+I included in the repo the initial [sketches snaps](https://github.com/zakhttp/weather-app/tree/master/resources/sketches) and the [sketch file](https://github.com/zakhttp/weather-app/blob/master/resources/sketches/weather.sketch) as well.
+
 Please let me know your feedback, if any and feel free to modify it or use as base for your own projects.
 [zakhttp@gmail.com](mailto:zakhttp@gmail.com)
 
