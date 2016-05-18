@@ -22,11 +22,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		15BBC82298B741FD9B2B119F /* libRNChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A98DCF65E3C4F7CA35782D1 /* libRNChart.a */; };
-		304210A51CDC08D400015076 /* slim_joe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 304210A31CDC08D400015076 /* slim_joe.otf */; };
-		304210A61CDC08D400015076 /* big_john.otf in Resources */ = {isa = PBXBuildFile; fileRef = 304210A41CDC08D400015076 /* big_john.otf */; };
-		304210A81CDE5D2D00015076 /* Abel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 304210A71CDE5D2D00015076 /* Abel-Regular.ttf */; };
-		304210AA1CDFB23800015076 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 304210A91CDFB23800015076 /* weathericons-regular-webfont.ttf */; };
-		30B71C221CEBC37100ED3166 /* Dubai, United Arab Emirates.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 30B71C211CEBC37100ED3166 /* Dubai, United Arab Emirates.gpx */; };
+		3097CDC21CEBD72500B78107 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3097CDC11CEBD72500B78107 /* MapKit.framework */; };
+		3097CDD41CEBD8A900B78107 /* slim_joe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3097CDD01CEBD8A900B78107 /* slim_joe.otf */; };
+		3097CDD51CEBD8A900B78107 /* big_john.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3097CDD11CEBD8A900B78107 /* big_john.otf */; };
+		3097CDD61CEBD8A900B78107 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097CDD21CEBD8A900B78107 /* weathericons-regular-webfont.ttf */; };
+		3097CDD71CEBD8A900B78107 /* Abel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097CDD31CEBD8A900B78107 /* Abel-Regular.ttf */; };
+		3097CDDA1CEBD8DF00B78107 /* Dubai, United Arab Emirates.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3097CDD91CEBD8DF00B78107 /* Dubai, United Arab Emirates.gpx */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -137,11 +138,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = weather/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = weather/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		304210A31CDC08D400015076 /* slim_joe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = slim_joe.otf; path = ../resources/fonts/slim_joe.otf; sourceTree = "<group>"; };
-		304210A41CDC08D400015076 /* big_john.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = big_john.otf; path = ../resources/fonts/big_john.otf; sourceTree = "<group>"; };
-		304210A71CDE5D2D00015076 /* Abel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Abel-Regular.ttf"; path = "../../../../../Downloads/fonts-master/ofl/abel/Abel-Regular.ttf"; sourceTree = "<group>"; };
-		304210A91CDFB23800015076 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "../../../../../Downloads/weather-icons-master/font/weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
-		30B71C211CEBC37100ED3166 /* Dubai, United Arab Emirates.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Dubai, United Arab Emirates.gpx"; path = "../../../../../Downloads/Dubai, United Arab Emirates.gpx"; sourceTree = "<group>"; };
+		3097CDC11CEBD72500B78107 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3097CDD01CEBD8A900B78107 /* slim_joe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = slim_joe.otf; path = ../resources/fonts/slim_joe.otf; sourceTree = "<group>"; };
+		3097CDD11CEBD8A900B78107 /* big_john.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = big_john.otf; path = ../resources/fonts/big_john.otf; sourceTree = "<group>"; };
+		3097CDD21CEBD8A900B78107 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "../resources/fonts/weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		3097CDD31CEBD8A900B78107 /* Abel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Abel-Regular.ttf"; path = "../resources/fonts/Abel-Regular.ttf"; sourceTree = "<group>"; };
+		3097CDD91CEBD8DF00B78107 /* Dubai, United Arab Emirates.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Dubai, United Arab Emirates.gpx"; path = "../resources/gpx/Dubai, United Arab Emirates.gpx"; sourceTree = "<group>"; };
 		3A98DCF65E3C4F7CA35782D1 /* libRNChart.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNChart.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				3097CDC21CEBD72500B78107 /* MapKit.framework in Frameworks */,
 				15BBC82298B741FD9B2B119F /* libRNChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +278,7 @@
 		304210971CDBD84500015076 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3097CDD81CEBD8B000B78107 /* Gpx */,
 				304210A21CDC089600015076 /* Fonts */,
 			);
 			name = Resources;
@@ -283,10 +287,10 @@
 		304210A21CDC089600015076 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				304210A91CDFB23800015076 /* weathericons-regular-webfont.ttf */,
-				304210A71CDE5D2D00015076 /* Abel-Regular.ttf */,
-				304210A31CDC08D400015076 /* slim_joe.otf */,
-				304210A41CDC08D400015076 /* big_john.otf */,
+				3097CDD01CEBD8A900B78107 /* slim_joe.otf */,
+				3097CDD11CEBD8A900B78107 /* big_john.otf */,
+				3097CDD21CEBD8A900B78107 /* weathericons-regular-webfont.ttf */,
+				3097CDD31CEBD8A900B78107 /* Abel-Regular.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -297,6 +301,14 @@
 				304210C31CDFBE4400015076 /* libRNChart.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3097CDD81CEBD8B000B78107 /* Gpx */ = {
+			isa = PBXGroup;
+			children = (
+				3097CDD91CEBD8DF00B78107 /* Dubai, United Arab Emirates.gpx */,
+			);
+			name = Gpx;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -336,7 +348,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				30B71C211CEBC37100ED3166 /* Dubai, United Arab Emirates.gpx */,
+				3097CDC11CEBD72500B78107 /* MapKit.framework */,
 				304210971CDBD84500015076 /* Resources */,
 				13B07FAE1A68108700A75B9A /* weather */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -407,6 +419,13 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -567,13 +586,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304210A81CDE5D2D00015076 /* Abel-Regular.ttf in Resources */,
-				304210A51CDC08D400015076 /* slim_joe.otf in Resources */,
-				304210AA1CDFB23800015076 /* weathericons-regular-webfont.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3097CDD51CEBD8A900B78107 /* big_john.otf in Resources */,
+				3097CDD61CEBD8A900B78107 /* weathericons-regular-webfont.ttf in Resources */,
+				3097CDD71CEBD8A900B78107 /* Abel-Regular.ttf in Resources */,
+				3097CDD41CEBD8A900B78107 /* slim_joe.otf in Resources */,
+				3097CDDA1CEBD8DF00B78107 /* Dubai, United Arab Emirates.gpx in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				304210A61CDC08D400015076 /* big_john.otf in Resources */,
-				30B71C221CEBC37100ED3166 /* Dubai, United Arab Emirates.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,10 +715,12 @@
 					"$(SRCROOT)/../node_modules/react-native-chart",
 				);
 				INFOPLIST_FILE = weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = weather;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -714,10 +735,12 @@
 					"$(SRCROOT)/../node_modules/react-native-chart",
 				);
 				INFOPLIST_FILE = weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = weather;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
