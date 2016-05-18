@@ -1,6 +1,6 @@
 # Weather App
 
-I built this app as side project to help me get more grasp on [React Native Native](https://facebook.github.io/react-native/docs/getting-started.html) for my startup idea.
+I built this app as side project to help me get more grasp on [React Native](https://facebook.github.io/react-native/docs/getting-started.html) for my startup idea.
 
 The app uses the [Geolocation](https://facebook.github.io/react-native/docs/geolocation.html#content) Polyfill to retrieve the location coordinates (latitude, longitude) and load the weather data from [Open Weather Map Api](https://http://openweathermap.org/api) using the same coordinates
 
