@@ -4,7 +4,6 @@
  * https://github.com/zakhttp
  */
 'use strict';
-
 import React, { Component } from 'react';
 import {
     AppRegistry,
@@ -14,34 +13,23 @@ import {
     PixelRatio,
     ActivityIndicatorIOS
 } from 'react-native';
-
 // Require thr chart component
 var TemperatureChart = require('./src/components/temperatureChart');
-
 // Require the api call script
 var Api = require('./src/components/api');
-
 // Require the color theme map
 var Theme = require('./src/components/colorThemes');
-
-
 // Dynamic temperature text formatting for small screens of PixelRatio<=2
-
-// Initial temperature font size
-var temperatureFontSize = 180;
-var temperatureLineHeight = 250;
+var temperatureFontSize = 180; // Initial temperature font size
+var temperatureLineHeight = 250; // Initial temperature line height
 if (PixelRatio.get() <= 2) {
     temperatureFontSize = 120;
     temperatureLineHeight = 170;
 }
-
 class weather extends Component {
 
     constructor(props) {
         super(props);
-        // this.getLocationCoordinates = this.getLocationCoordinates.bind(this);
-        // this.fetchData = this.fetchData.bind(this);
-
         this.state = {
             actualTemperature: '',
             maxTemperature: '--',
@@ -57,14 +45,10 @@ class weather extends Component {
             temperaturesForecastLabels: [],
             loaded: false,
             theme: 'warm'
-
         };
     }
-
     componentDidMount() {
-
         this.getData();
-
     }
     // Fetch the data using the gps coordinates
     getData() {
@@ -95,12 +79,10 @@ class weather extends Component {
         );
 
     }
-
-
     render() {
         // Render the activity monitor while the data is loading
         if (!this.state.loaded) {
-            return this.renderLoadingView()
+            return this.renderLoadingView();
         }
         return (
             <View style={[
@@ -158,7 +140,7 @@ class weather extends Component {
                                     styles.minMaxArrow,
                                     Theme(this.state.theme).secondary
                                   ]}>
-                                    ↑
+                                    ↓
                                 </Text>
                                 {this.state.minTemperature}
                                 ˚C
@@ -238,7 +220,6 @@ class weather extends Component {
                             pressure
                         </Text>
                     </View>
-
                 </View>
                 <View style={styles.footer}>
                     <TemperatureChart
@@ -246,13 +227,12 @@ class weather extends Component {
                         xLabels={this.state.temperaturesForecastLabels}
                         graph={Theme(this.state.theme).foreground}
                         highlight={Theme(this.state.theme).primary}
+                        labelFontName="Abel-Regular"
                     />
                 </View>
             </View>
         );
     }
-
-
    renderLoadingView() {
        return (
            <View
@@ -268,10 +248,7 @@ class weather extends Component {
            </View>
        );
  }
-
-
 }
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -371,7 +348,7 @@ const styles = StyleSheet.create({
         color: '#FF9F29'
     },
     weatherDescription: {
-        fontSize: 26,
+        fontSize: 22,
         fontFamily: 'Abel-Regular',
         color: '#736A51',
         paddingVertical: 10,
@@ -405,5 +382,4 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     }
 });
-
 AppRegistry.registerComponent('weather', () => weather);

@@ -1,27 +1,11 @@
 import React, { Component } from 'react';
-
 import {
   StyleSheet,
   Text,
   View
 } from 'react-native';
-
 import RNChart from 'react-native-chart';
-
-
-
-
-
-
-
-
 class TemperatureChart extends Component {
-
-
-
-
-
-
   render(){
     return (
       <RNChart style={styles.chart}
@@ -41,25 +25,19 @@ class TemperatureChart extends Component {
                 }
                 horizontalGridStep={3}
                 xLabels={this.props.xLabels}
-                tightBounds={true}
+                tightBounds={false}
                 axisLineWidth={2}
                 showAxis={false}
                 labelFontSize={11}
+                labelFontName="Abel-Regular"
                 />
-
     );
   }
 }
-
-
 const styles = StyleSheet.create({
-
   chart: {
     alignSelf: 'stretch',
-    flex: 1,
-
+    flex: 1
   }
 });
-
-
 module.exports = TemperatureChart;

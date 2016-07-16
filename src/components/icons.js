@@ -1,5 +1,5 @@
-// Icons array mapping the OpenWeatherMAp icons with the WeatherIcons Font
-module.exports = function(iconCode){
+// Icons array mapping with the OpenWeatherMAp
+module.exports = function(iconCode) {
   let iconMap = {
     '01d': '\uf00d', // clear sky
     '02d': '\uf002', // few clouds
@@ -20,6 +20,5 @@ module.exports = function(iconCode){
     '13n': '\uf016',
     '50n': '\uf014'
   };
-
   return iconMap[iconCode];
 }

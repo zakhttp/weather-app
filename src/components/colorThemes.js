@@ -1,5 +1,4 @@
-module.exports = function(theme){
-
+module.exports = function(theme) {
   colorThemes = {
     defaultTheme: {
       background: {
@@ -72,6 +71,5 @@ module.exports = function(theme){
       }
     }
   };
-
   return colorThemes[theme];
 }
